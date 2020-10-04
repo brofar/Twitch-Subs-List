@@ -1,4 +1,4 @@
-I need to put something here.
+I'll put more here later. index.js for the main part of the code.
 
 Made this for some friends.
 Grabs a list of subs who are currently viewing your stream, to make it easier for giveaway purposes (folks who give 2x entries to subs or other perks).

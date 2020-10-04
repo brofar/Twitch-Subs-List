@@ -217,7 +217,7 @@ app.get("/", async (req, res) => {
 // Config details
 const keys = {
     twitch: {
-        redirect_uri: 'https://twitch-subs-list.brofar.repl.co/twitch/callback',
+        redirect_uri: `${process.env.APP_URL}/twitch/callback`,
         client_id: process.env.APP_CLIENT_ID,
         client_secret: process.env.APP_OAUTH_SECRET
     }

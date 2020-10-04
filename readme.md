@@ -6,6 +6,12 @@ I created this for a few streaming friends who do game giveaways on stream and o
 ## Installation
 Uses NodeJS. My implementation is on repl.it, which automatically downloads all the needed libraries.
 
+1. Head over to https://dev.twitch.tv/ and create an application
+1. Set the redirect URL to `[whatever your application's url will be]/twitch/callback`
+1. Grab your Client ID and Secret from your newly created application
+1. Throw those into .env.sample
+1. Set APP_URL to `[whatever your application's url will be]` with no trailing slash
+1. Rename .env.sample to .env
 1. Upload to whatever you host on
 1. Run
 

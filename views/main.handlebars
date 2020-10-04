@@ -1,0 +1,33 @@
+<a href="javascript:location.reload(true)" class="btn btn-primary btn-block">Refresh</a>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Channel</th>
+      <th scope="col">Viewers</th>
+      <th scope="col">All Subscribers</th>
+      <th scope="col">Subscribers in Chat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        {{channel}}
+      </td>
+      <td>
+        {{#each viewers}}
+          {{this}}<br />
+        {{/each}}
+      </td>
+      <td>
+        {{#each subs}}
+          {{this}}<br />
+        {{/each}}
+      </td>
+      <td>
+        {{#each activesubs}}
+          {{this}}<br />
+        {{/each}}
+      </td>
+    </tr>
+  </tbody>
+</table>

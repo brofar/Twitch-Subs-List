@@ -1,4 +1,4 @@
-# Twitch Subs List
+# Twitch Active Subs List
 This is a service that uses the Twitch API to display a list of viewers in your stream, and a list of which of those viewers are subscribed to you.
 
 I created this for a few streaming friends who do game giveaways on stream and offer 2x entries for subscribers who enter their draw. They can use this instead of having to manually check which entries in their draw are from subscribers and having to add the second entry manually.

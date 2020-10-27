@@ -3,9 +3,9 @@
   <thead>
     <tr>
       <th scope="col">Channel</th>
-      <th scope="col">Viewers</th>
-      <th scope="col">All Subscribers</th>
-      <th scope="col">Subscribers in Chat</th>
+      <th scope="col">Viewers ({{viewers.length}})</th>
+      <th scope="col">All Subscribers ({{subs.length}})</th>
+      <th scope="col">Subscribers in Chat ({{activesubs.length}})</th>
     </tr>
   </thead>
   <tbody>
@@ -26,6 +26,11 @@
       <td>
         {{#each activesubs}}
           {{this}}<br />
+        {{/each}}
+        <hr>
+        <strong>Spaces instead of line breaks:</strong><br />
+        {{#each activesubs}}
+          {{this}}
         {{/each}}
       </td>
     </tr>

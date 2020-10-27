@@ -23,7 +23,7 @@ This is built with Node.js. Install the latest LTS version from [the official we
 
 To set up the script, clone it using `git`:
 
-    git clone git@github.com:brofar/TwitchMonitor.git
+    git clone git@github.com:brofar/Twitch-Subs-List.git
     
 Once installed, enter the directory and install the dependencies:
 
